@@ -62,3 +62,12 @@ The Laravel framework is open-sourced software licensed under the [MIT license](
 # food_fusion_website
 This website is builded by Thant Sin Htoo Nay. It contains frontend with HTML, CSS and Bootstrap, backend with PHP/Laravel and database is MySQL.
 >>>>>>> 562f522c2fc1b00131ee598c4b41b17824903904
+
+## Step by step Bash in VsCode
+- As first you need build database
+- composer require laravel/sanctum
+- php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+- php artisan key:generate
+- php artisan migrate:fresh --seed
+- php artisan serve
+
